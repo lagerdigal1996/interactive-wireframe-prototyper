@@ -7,13 +7,13 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {
-        static: './',
+        static: path.resolve(__dirname, 'dist'),
         port: 3000,
     },
     module: {
         rules: [{
             test: /\.js$/, // Transpile JS files
-            exclude: /node_modules/,
+            exclude: /node_modules/, 
             use: {
                 loader: 'babel-loader',
                 options: {
