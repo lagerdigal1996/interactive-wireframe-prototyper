@@ -10,6 +10,6 @@ body {
 
 #canvas {
     border: 1px solid #ccc;
-    height: 600px;
+    height: 80vh;
     position: relative;
 }
