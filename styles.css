@@ -9,7 +9,7 @@ body {
 }
 
 #canvas {
-    border: 1px solid #ccc;
+    border: 2px solid #000;
     height: 80vh;
     position: relative;
 }
