@@ -1,0 +1,18 @@
+{
+  "name": "interactive-wireframe-prototyper",
+  "version": "1.0.0",
+  "description": "A web application for creating interactive wireframes and prototypes.",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
